@@ -1,0 +1,203 @@
+$date
+	Tue Oct 20 15:14:07 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb_wb_register_slave $end
+$var wire 1 ! err $end
+$var wire 32 " dat_o [31:0] $end
+$var wire 1 # ack $end
+$var reg 4 $ adr [3:0] $end
+$var reg 1 % clk $end
+$var reg 1 & cyc $end
+$var reg 32 ' dat_i [31:0] $end
+$var reg 1 ( rst_n $end
+$var reg 1 ) stb $end
+$var reg 1 * we $end
+$var integer 32 + errors [31:0] $end
+$scope module dut $end
+$var wire 4 , adr [3:0] $end
+$var wire 1 % clk $end
+$var wire 1 & cyc $end
+$var wire 32 - dat_i [31:0] $end
+$var wire 1 ( rst_n $end
+$var wire 1 ) stb $end
+$var wire 1 * we $end
+$var reg 1 # ack $end
+$var reg 32 . dat_o [31:0] $end
+$var reg 1 ! err $end
+$var integer 32 / i [31:0] $end
+$upscope $end
+$scope task wb_read_check $end
+$var reg 4 0 address [3:0] $end
+$var reg 32 1 expected_data [31:0] $end
+$var reg 32 2 read_data [31:0] $end
+$var integer 32 3 timeout [31:0] $end
+$upscope $end
+$scope task wb_write $end
+$var reg 4 4 address [3:0] $end
+$var reg 32 5 write_data [31:0] $end
+$var integer 32 6 timeout [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx 6
+bx 5
+bx 4
+bx 3
+bx 2
+bx 1
+bx 0
+b100 /
+b0 .
+b0 -
+b0 ,
+b0 +
+0*
+0)
+0(
+b0 '
+0&
+0%
+b0 $
+0#
+b0 "
+0!
+$end
+#5000
+b100 /
+1%
+#10000
+0%
+#15000
+b100 /
+1%
+#20000
+b1001000110100 5
+b0 4
+1(
+0%
+#25000
+1%
+#30000
+b0 6
+b1001000110100 '
+b1001000110100 -
+1*
+1)
+1&
+0%
+#35000
+1#
+1%
+#36000
+b1 6
+#40000
+0*
+0)
+0&
+0%
+#45000
+0#
+1%
+#50000
+0%
+#55000
+1%
+#60000
+b1001000110100 1
+b0 0
+0%
+#65000
+1%
+#70000
+b0 3
+1)
+1&
+0%
+#75000
+1#
+b1001000110100 "
+b1001000110100 .
+1%
+#76000
+b1001000110100 2
+b1 3
+#80000
+0)
+0&
+0%
+#85000
+0#
+1%
+#90000
+0%
+#95000
+1%
+#100000
+b10100101101001010101101001011010 5
+0%
+#105000
+1%
+#110000
+b0 6
+b10100101101001010101101001011010 '
+b10100101101001010101101001011010 -
+1*
+1)
+1&
+0%
+#115000
+1#
+1%
+#116000
+b1 6
+#120000
+0*
+0)
+0&
+0%
+#125000
+0#
+1%
+#130000
+0%
+#135000
+1%
+#140000
+b10100101101001010101101001011010 1
+0%
+#145000
+1%
+#150000
+b0 3
+1)
+1&
+0%
+#155000
+1#
+b10100101101001010101101001011010 "
+b10100101101001010101101001011010 .
+1%
+#156000
+b10100101101001010101101001011010 2
+b1 3
+#160000
+0)
+0&
+0%
+#165000
+0#
+1%
+#170000
+0%
+#175000
+1%
+#180000
+0%

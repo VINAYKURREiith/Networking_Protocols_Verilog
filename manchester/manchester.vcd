@@ -1,0 +1,249 @@
+$date
+	Tue Oct 20 15:11:19 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb_manchester_encoder $end
+$var wire 1 ! encoded $end
+$var wire 1 " done $end
+$var wire 1 # busy $end
+$var reg 1 $ bit_valid $end
+$var reg 1 % clk $end
+$var reg 1 & data_bit $end
+$var reg 1 ' expected_first_half $end
+$var reg 1 ( expected_second_half $end
+$var reg 1 ) rst_n $end
+$var integer 32 * errors [31:0] $end
+$var integer 32 + passed [31:0] $end
+$var integer 32 , timeout_count [31:0] $end
+$scope module dut $end
+$var wire 1 $ bit_valid $end
+$var wire 1 % clk $end
+$var wire 1 & data_bit $end
+$var wire 1 ) rst_n $end
+$var reg 1 # busy $end
+$var reg 1 " done $end
+$var reg 1 ! encoded $end
+$var reg 1 - saved_bit $end
+$var reg 1 . second_half $end
+$upscope $end
+$scope task send_and_check $end
+$var reg 1 / test_bit $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+x/
+0.
+0-
+b0 ,
+b0 +
+b0 *
+0)
+0(
+0'
+0&
+0%
+0$
+0#
+0"
+1!
+$end
+#5000
+1%
+#10000
+0%
+#15000
+1%
+#20000
+0%
+#25000
+1%
+#30000
+1)
+0%
+#35000
+1%
+#40000
+0%
+#45000
+1%
+#50000
+0/
+0%
+#55000
+1%
+#60000
+1$
+0%
+#65000
+1#
+1%
+#70000
+1'
+0$
+0%
+#71000
+b1 +
+#75000
+1.
+0!
+1%
+#80000
+0%
+#81000
+b10 +
+#85000
+1"
+0#
+1%
+#90000
+b100 +
+b0 ,
+0%
+#95000
+0"
+1%
+#100000
+0%
+#105000
+1%
+#110000
+1/
+0%
+#115000
+1%
+#120000
+1$
+1&
+0%
+#125000
+0.
+1#
+1-
+1%
+#130000
+1(
+0'
+0$
+0%
+#131000
+b101 +
+#135000
+1.
+1!
+1%
+#140000
+0%
+#141000
+b110 +
+#145000
+1"
+0#
+1%
+#150000
+b1000 +
+b0 ,
+0%
+#155000
+0"
+1%
+#160000
+0%
+#165000
+1%
+#170000
+0/
+0%
+#175000
+1%
+#180000
+1$
+0&
+0%
+#185000
+0.
+1#
+0-
+1%
+#190000
+0(
+1'
+0$
+0%
+#191000
+b1001 +
+#195000
+1.
+0!
+1%
+#200000
+0%
+#201000
+b1010 +
+#205000
+1"
+0#
+1%
+#210000
+b1100 +
+b0 ,
+0%
+#215000
+0"
+1%
+#220000
+0%
+#225000
+1%
+#230000
+1/
+0%
+#235000
+1%
+#240000
+1$
+1&
+0%
+#245000
+0.
+1#
+1-
+1%
+#250000
+1(
+0'
+0$
+0%
+#251000
+b1101 +
+#255000
+1.
+1!
+1%
+#260000
+0%
+#261000
+b1110 +
+#265000
+1"
+0#
+1%
+#270000
+b10000 +
+b0 ,
+0%
+#275000
+0"
+1%
+#280000
+0%
+#285000
+1%
+#290000
+0%
